@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E2B1D93-0587-4FD4-AF23-13C7335638D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AB75DDD3-1C06-4971-8A59-E47970564ACE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{DE2C75CD-E858-4E81-B81C-E012F9405CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{556B7B6D-F1CC-4361-9ECD-D0AE3403FE75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{CDF941F6-2161-49D8-A746-8F744F3CB4F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{CB5A8DB0-926E-4585-A170-6C2D8229EB2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColomboLibrary.LibraryManagement.Domain", "ColomboLibrary.LibraryManagement.Domain\ColomboLibrary.LibraryManagement.Domain.csproj", "{D2DCB831-9CC3-4520-8B83-5E20348C1513}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2DCB831-9CC3-4520-8B83-5E20348C1513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DCB831-9CC3-4520-8B83-5E20348C1513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DCB831-9CC3-4520-8B83-5E20348C1513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DCB831-9CC3-4520-8B83-5E20348C1513}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE2C75CD-E858-4E81-B81C-E012F9405CF3} = {4E2B1D93-0587-4FD4-AF23-13C7335638D1}
+		{556B7B6D-F1CC-4361-9ECD-D0AE3403FE75} = {4E2B1D93-0587-4FD4-AF23-13C7335638D1}
+		{CDF941F6-2161-49D8-A746-8F744F3CB4F3} = {4E2B1D93-0587-4FD4-AF23-13C7335638D1}
+		{CB5A8DB0-926E-4585-A170-6C2D8229EB2E} = {4E2B1D93-0587-4FD4-AF23-13C7335638D1}
+		{D2DCB831-9CC3-4520-8B83-5E20348C1513} = {556B7B6D-F1CC-4361-9ECD-D0AE3403FE75}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1105D72A-EDCA-4621-9B82-A644045C9A30}
+	EndGlobalSection
+EndGlobal

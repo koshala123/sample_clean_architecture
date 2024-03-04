@@ -1,6 +1,8 @@
-﻿namespace ColomboLibrary.LibraryManagement.Domain.Entities
+﻿using ColomboLibrary.LibraryManagement.Domain.Common;
+
+namespace ColomboLibrary.LibraryManagement.Domain.Entities
 {
-    public class Checkout
+    public class Checkout : AuditableEntity
     {
         public Guid CheckoutId { get; }
         public Book Book { get; }

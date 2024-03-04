@@ -1,6 +1,8 @@
-﻿namespace ColomboLibrary.LibraryManagement.Domain.Entities
+﻿using ColomboLibrary.LibraryManagement.Domain.Common;
+
+namespace ColomboLibrary.LibraryManagement.Domain.Entities
 {
-    public class Category
+    public class Category : AuditableEntity
     {
         public Guid CategoryId { get; set; }
         public BookCategory BookCategory { get; set; }

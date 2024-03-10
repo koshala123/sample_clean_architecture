@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using ColomboLibrary.LibraryManagement.Domain.Entities;
 using ColomboLibrary.LibraryManagment.Application.Features.Books.Queries.GetBooksList;
 

@@ -23,8 +23,8 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      working-directory: ColomboLibrary.LibraryManagment
+      working-directory: ../ColomboLibrary.LibraryManagment
       run: dotnet build --no-restore
     - name: Test
-      working-directory: ColomboLibrary.LibraryManagment
+      working-directory: ../ColomboLibrary.LibraryManagment
       run: dotnet test --no-build --verbosity normal

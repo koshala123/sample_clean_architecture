@@ -4,7 +4,8 @@ namespace ColomboLibrary.LibraryManagement.Domain.Entities
 {
     public class Book : AuditableEntity
     {
-        public Guid ISBN { get; set; }
+        public Guid Id { get; set; }
+        public string ISBN { get; set; }
         public required string Title { get; set; }
         public required string Author { get; set; }
         public string? Publisher { get; set; }
@@ -12,6 +13,7 @@ namespace ColomboLibrary.LibraryManagement.Domain.Entities
         public BookStatus Status { get; set; }
         public BookType Type { get; set; }
         public string ImageUrl { get; set; }
+        public Guid CategoryId { get; set; }
         public Category Category { get; set; } = default!;
     }
 

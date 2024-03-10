@@ -4,11 +4,13 @@ using ColomboLibrary.LibraryManagment.Application.Features.Books;
 
 namespace ColomboLibrary.LibraryManagment.Application.Profiles
 {
-    public class MappinProfile : Profile
+    public class MappingProfile : Profile
     {
-        public MappinProfile()
+        public MappingProfile()
         {
             CreateMap<Book, BookListVm>().ReverseMap();
+            CreateMap<Book, BookDetailVm>().ReverseMap();
+            CreateMap<Category, CategoryDto>();
         }
     }
 }

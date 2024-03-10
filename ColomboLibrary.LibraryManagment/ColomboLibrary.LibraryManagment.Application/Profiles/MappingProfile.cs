@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using ColomboLibrary.LibraryManagement.Domain.Entities;
-using ColomboLibrary.LibraryManagment.Application.Features.Books;
+using ColomboLibrary.LibraryManagment.Application.Features.Books.Queries.GetBooksList;
 
 namespace ColomboLibrary.LibraryManagment.Application.Profiles
 {

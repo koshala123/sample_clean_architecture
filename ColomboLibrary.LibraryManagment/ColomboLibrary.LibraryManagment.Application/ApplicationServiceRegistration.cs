@@ -1,4 +1,4 @@
-﻿using ColomboLibrary.LibraryManagment.Application.Features.Books;
+﻿using ColomboLibrary.LibraryManagment.Application.Features.Books.Queries.GetBooksList;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 

@@ -3,7 +3,7 @@ using ColomboLibrary.LibraryManagement.Domain.Entities;
 using ColomboLibrary.LibraryManagment.Application.Contracts.Persistence;
 using MediatR;
 
-namespace ColomboLibrary.LibraryManagment.Application.Features.Books
+namespace ColomboLibrary.LibraryManagment.Application.Features.Books.Queries.GetBookDetail
 {
     public class GetBookDetailQueryHandler : IRequestHandler<GetBookDetailQuery, BookDetailVm>
     {

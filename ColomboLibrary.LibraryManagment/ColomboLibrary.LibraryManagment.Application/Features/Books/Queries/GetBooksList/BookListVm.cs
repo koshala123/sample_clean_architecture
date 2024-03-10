@@ -1,6 +1,6 @@
 ﻿using ColomboLibrary.LibraryManagement.Domain.Entities;
 
-namespace ColomboLibrary.LibraryManagment.Application.Features.Books
+namespace ColomboLibrary.LibraryManagment.Application.Features.Books.Queries.GetBooksList
 {
     public class BookListVm
     {

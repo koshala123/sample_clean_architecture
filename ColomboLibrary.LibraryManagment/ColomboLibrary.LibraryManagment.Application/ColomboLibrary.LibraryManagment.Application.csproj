@@ -17,5 +17,11 @@
 
   <ItemGroup>
     <Folder Include="Features\Books\Commands\CreateBook\" />
+    <Folder Include="Features\Categories\Commands\" />
+    <Folder Include="Features\Categories\Queries\GetCategoriesListWithBooks\" />
+    <Folder Include="Features\Checkout\Commands\" />
+    <Folder Include="Features\Checkout\Queries\" />
+    <Folder Include="Features\Members\Commands\" />
+    <Folder Include="Features\Members\Queries\" />
   </ItemGroup>
 </Project>
